@@ -1,16 +1,18 @@
-package gui;
+package table;
 
-import table.ExampleTable1;
-
+import javax.crypto.CipherInputStream;
 import javax.swing.*;
 
-public class RunFormBiodata {
+public class RunExampleTable1 {
     public static void main(String[] args) {
+
+        ImageIcon imageIcon = new ImageIcon( "res/icon.png");
         JFrame jFrame = new JFrame("Form Biodata with Table");
+        jFrame.setIconImage(imageIcon.getImage());
         jFrame.setContentPane(new ExampleTable1().getRootPanel());
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jFrame.setSize(500, 400);
         jFrame.setLocationRelativeTo(null);
-        jFrame.setSize(500 ,400);
         jFrame.setVisible(true);
     }
 }

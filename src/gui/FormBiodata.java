@@ -43,9 +43,7 @@ public class FormBiodata {
 
     public JPanel getRootpanel() {
         return rootpanel;
-    }
 
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
+
     }
 }
