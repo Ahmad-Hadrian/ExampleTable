@@ -13,6 +13,7 @@ public class ExampleTable1 {
     private JTable tableBiodata;
     private JPanel rootPanel;
     private JButton buttonsave;
+    private JCheckBox checkBox1;
     private DefaultTableModel tableModel;
 
     public JPanel getRootPanel() {
