@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GUI DESIGNER:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GUI_DESIGNER_jar</output-path>
+    <root id="archive" name="GUI DESIGNER.jar">
+      <element id="module-output" name="GUI DESIGNER" />
+    </root>
+  </artifact>
+</component>
